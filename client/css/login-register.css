@@ -6,7 +6,7 @@
     display: none;
 }
 body {
-    background-color: rgb(14, 22, 33);
+    background-image: img/lrback.svg;
 }
 nav {
     font-weight: bold;
