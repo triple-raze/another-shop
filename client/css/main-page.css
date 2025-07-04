@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+*::-moz-scrollbar {
+    display: none;
+}
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 101%;
+    background-repeat: no-repeat;
+}
+nav {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav > a {
+    padding: 10px 0px;
+    text-align: center;
+    width: 20%;
+    text-decoration: none;
+    color: darkgray;
+    background-color: rgb(31, 41, 54);
+}
+h1 {
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+}
+h1:first-of-type {
+    font-size: 90px;
+}
+#tovary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+.tovar {
+    color: black;
+    background-color: rgb(94, 183, 247);
+    padding: 20px;
+    border-radius: 1.5rem;
+}
