@@ -1,3 +1,2 @@
 # siwine
-tier 0 shop 🔥🔥🔥
-but not for long time
+tier 0 shop 🔥🔥🔥. But not for long time... Creators: Ratimir833 and 
