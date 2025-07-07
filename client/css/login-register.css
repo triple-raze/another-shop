@@ -1,0 +1,38 @@
+body {
+    background-position: center;
+    background-size: 108%;
+    background-repeat: no-repeat;
+}
+form {
+    margin: 0% 38%;
+    color: white;
+}
+button {
+    border: none;
+    color: black;
+    background-color: rgb(118, 140, 158);
+    border-radius: 3rem;
+    padding: 5% 29%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input {
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 20px;
+    background-color: rgb(36, 47, 61);
+    padding: 5% 20%;
+    border-radius: 3rem;
+}
+input::placeholder {
+    color: rgb(94, 183, 247);
+}
+h1 {
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+}
+input {
+    border: none;
+}
