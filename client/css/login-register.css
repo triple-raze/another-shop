@@ -1,36 +1,32 @@
-body {
-    background-position: center;
-    background-size: 108%;
-    background-repeat: no-repeat;
-}
 form {
     margin: 0% 38%;
-    color: white;
 }
 button {
     border: none;
     color: black;
-    background-color: rgb(118, 140, 158);
+    background-color: rgba(0, 128, 127, 0.75);
     border-radius: 3rem;
-    padding: 5% 29%;
+    padding: 5% 12.7%;
     margin-top: 10px;
     cursor: pointer;
 }
 input {
     color: white;
-    cursor: pointer;
+    cursor: text;
     border: none;
     margin-bottom: 20px;
-    background-color: rgb(36, 47, 61);
+    background-color: rgba(0, 255, 0, 0.50);
     padding: 5% 20%;
     border-radius: 3rem;
 }
 input::placeholder {
-    color: rgb(94, 183, 247);
+    color: black;
+}
+input[type=radio] {
+    cursor: pointer;
 }
 h1 {
     margin: 20px 0;
-    color: white;
     text-align: center;
 }
 input {

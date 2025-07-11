@@ -1,8 +1,14 @@
-fetch("/users", {
-method: "POST",
-headers: {"Content-Type": "application/json"},
-body: JSON.stringify(user: document.getElementById("tovary").value
-})
-.then(response => response.json())
-.then(data  => console.log(data))
-.catch(error => console.log(error))
+document.getElementById('search-form').addEventListener('submit', function(event) {
+  event.preventDefault();
+  const searchTerm = document.getElementById('search-input').value.toLowerCase();
+  const elements = document.querySelectorAll('slot');
+  for (let i = 0; i < elements.length; i++) {
+    const element = elements[i];
+    const text = element.textContent.toLowerCase();
+    if (text.includes(searchTerm)) {
+      element.style.display = 'grid';
+    } else {
+      element.style.display = 'none';
+    }
+  }
+});

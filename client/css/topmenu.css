@@ -5,6 +5,8 @@
     display: none;
 }
 * {
+    color: black;
+    font-family: 'Comic Sans MS';
     padding: 0;
     margin: 0;
     user-select: none;
@@ -15,10 +17,10 @@ nav {
     justify-content: space-evenly;
 }
 nav > a {
-    padding: 10px 0px;
+    padding: 8px 0px;
     text-align: center;
     width: 20%;
+
     text-decoration: none;
-    color: darkgray;
-    background-color: rgb(31, 41, 54);
+    background-color: rgba(0, 255, 0, 0.75);
 }

@@ -15,89 +15,31 @@
         <a href="more-info.html" class="nav-punct _4">Дополнительно</a>
     </nav>
     <main>
-        <h1>Главная страница</h1>
-        <h1>Наши товары</h1>
+        <form action="search" id="search-form">
+            <input id="search-input" placeholder="По названию или цене">
+            <button type="submit">Найти товар</button>
+        </form>
         <div id="tovary">
-            <div class="tovar _1">
+            <slot class="tovar">
                 <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _2">
+                <price>2000 руб</price>
+                <a>Подушки перьевые VOVA</a>
+            </slot>
+            <slot class="tovar">
                 <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _3">
+                <price>10000 руб</price>
+                <a>Диван обитый SIGMA</a>
+            </slot>
+            <slot class="tovar">
                 <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _4">
+                <price>Бесплатно</price>
+                <a>Вирус гойды DARKNET</a>
+            </slot>
+            <slot class="tovar">
                 <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _5">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _6">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _7">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _8">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _9">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _10">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _11">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _12">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _13">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _14">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _15">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _16">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _17">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _18">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _19">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
-            <div class="tovar _20">
-                <img src="" alt="Пикчи нет">
-                <h3>Название товара</h3>
-            </div>
+                <price>5000 руб</price>
+                <a>Стол 3 кв.м KICH</a>
+            </slot>
         </div>
     </main>
     <script type="text/javascript" src="js/main-page.js"></script>
