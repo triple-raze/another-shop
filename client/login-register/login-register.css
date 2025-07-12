@@ -1,0 +1,31 @@
+form {
+    margin: 0% 38%;
+}
+button {
+    border: none;
+    color: black;
+    background-color: #AAD7D9;
+    padding: 5% 12.7%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input {
+    cursor: text;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #AAD7D9;
+    padding: 5% 20%;
+}
+input::placeholder {
+    color: black;
+}
+input[type=radio] {
+    cursor: pointer;
+}
+h1 {
+    margin: 20px 0;
+    text-align: center;
+}
+input {
+    border: none;
+}
