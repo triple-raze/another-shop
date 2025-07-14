@@ -2,6 +2,7 @@ form {
     margin: 0% 38%;
 }
 button {
+    border-radius: 10px;
     border: none;
     color: black;
     background-color: #AAD7D9;
@@ -10,6 +11,7 @@ button {
     cursor: pointer;
 }
 input {
+    border-radius: 10px;
     cursor: text;
     border: none;
     margin-bottom: 20px;
@@ -17,6 +19,7 @@ input {
     padding: 5% 20%;
 }
 input::placeholder {
+    font-size: 20px;
     color: black;
 }
 input[type=radio] {
@@ -25,7 +28,4 @@ input[type=radio] {
 h1 {
     margin: 20px 0;
     text-align: center;
-}
-input {
-    border: none;
 }

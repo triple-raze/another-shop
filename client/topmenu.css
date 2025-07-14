@@ -5,6 +5,7 @@
     display: none;
 }
 * {
+    font-family: 'Roboto';
     color: black;
     padding: 0;
     margin: 0;
@@ -20,6 +21,7 @@ header {
     background-color: #92C7CF;
 }
 header > a {
+    font-weight: bolder;
     text-align: center;
     text-decoration: none;
     padding: 10px 0px;
