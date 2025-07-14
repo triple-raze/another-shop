@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Войти или зарегистрироваться</title>
+    <link rel="stylesheet" type="text/css" href="login-register.css">
+    <link rel="stylesheet" type="text/css" href="../topmenu.css">
+</head>
+<body>
+    <header>
+        <a href="../basket/basket.html">Корзина</a>
+        <a href="../login-register/login-register.html">Вход/регистрация</a>
+        <a href="../main-page/main-page.html">Главная</a>
+        <a href="../my-profile/my-profile.html">Мой профиль</a>
+        <a href="../more-info/more-info.html">Дополнительно</a>
+    </header>
+    <main>
+        <h1>Войти или зарегистрироваться</h1>
+        <form action="register">
+            <input id="user_name" type="name" placeholder="Имя пользователя">
+            <input id="user_password" type="password" placeholder="Пароль">
+            <input id="user_ph-num" type="tel" placeholder="Номер телефона">
+            <input id="user_email" type="email" placeholder="Эл. почта">
+            <input id="about_user" placeholder="О себе">
+            <input class="gend" type="radio" name="gender">Мужской
+            <input class="gend" type="radio" name="gender">Женский
+            <button id="login" type="submit">Вход</button>
+            <button id="register" type="submit">Регистрация</button>
+        </form>
+    </main>
+    <script type="text/javascript" src="login-register.js"></script>
+</body>
+</html>
