@@ -5,8 +5,8 @@ CREATE TABLE users (
     name VARCHAR(50) NOT NULL, 
     gender GENDER NOT NULL, 
     email VARCHAR(150) NOT NULL, 
-    password VARCHAR(30) NOT NULL, 
-    registration_timestamp DATE DEFAULT CURRENT_DATE
+    password BYTEA NOT NULL, 
+    registration_timestamp DATE DEFAULT timezone('utc', current_timestamp)
 );
 
 CREATE TABLE products (
@@ -21,4 +21,9 @@ CREATE TABLE cart_products (
     id SERIAL PRIMARY KEY,
     user_id INT REFERENCES users(id), 
     product_id INT REFERENCES products(id)
+);
+
+CREATE TABLE jwt (
+    id SERIAL PRIMARY KEY,
+	token TEXT NOT NULL
 )

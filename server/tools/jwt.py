@@ -10,20 +10,22 @@ class JWTService:
     jwt_key = os.getenv('JWT_SECRET_KEY')
 
     @classmethod
-    def create_token(cls, user_id: int, lifetime: int):
+    def create_token(cls, user_email: str, lifetime: int) -> str:
         payload = {
-            'sub': str(user_id),
+            'sub': user_email,
             'iat': int(time.time()),
             'exp': int(time.time()) + lifetime
         }
         return jwt.encode(payload, cls.jwt_key)
     
     @classmethod
-    def verify_token(cls, token: str):
+    def decode_token(cls, token: str) -> str | Exception:
         try:
             return jwt.decode(token, cls.jwt_key)
         except Exception as error:
             return error
+        
+
     
 
 
