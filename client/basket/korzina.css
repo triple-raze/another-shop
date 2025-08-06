@@ -1,0 +1,16 @@
+h1 {
+    font-size: 90px;
+    text-align: center;
+}
+#goods {
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 5px;
+}
+.good_in_basket {
+    display: grid;
+    color: black;
+    background-color: #AAD7D9;
+    padding: 20px;
+}
