@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta lang="ru">
+    <link rel="stylesheet" href="scss/link.css">
+    <link rel="stylesheet" href="scss/pages/login-register/login-register.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siwine | Авторизация</title>
+</head>
+<body>
+    <header>
+        <!-- шапка сайта -->
+        <nav class="navigation-pages">
+            <!-- навигационная панель, например верхнее меню -->
+            <img class="logo" src="images/logo.svg" alt="Siwine">
+            <a href="main.html"><img src="images/main.svg" alt=""></a>
+            <a href="cart.html"><img src="images/cart.svg" alt=""></a>
+            <a href="profile.html"><img src="images/profile.svg" alt=""></a>
+            <a href="login-register.html">Авторизоваться</a>
+        </nav>
+    </header>
+    <main>
+        <!-- главная часть сайта, сдесь основной контент -->
+        <div class="autorization">
+            <form>
+                <input type="text" placeholder="Имя пользователя">
+                <input id="password" type="password" placeholder="Пароль">
+                <input id="password-repeat" type="password" placeholder="Повторите пароль">
+                <input type="email" placeholder="Эл. почта">
+                <span>
+                    <button>Вход</button>
+                    <button>Регистрация</button>
+                </span>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <!-- подвал сайта, авторы, контакты, копирайт -->
+    </footer>
+    <script src="javascript/valid-input.js"></script>
+    <script src="javascript/fechAPI.js"></script>
+</body>
+</html>
