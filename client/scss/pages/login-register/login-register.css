@@ -1,0 +1,54 @@
+.autorization {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.autorization form {
+  border-top: 2px solid #7F29BB;
+  padding: 0 8px;
+  background-color: #F2F2F2;
+  height: 50vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.autorization form span {
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.autorization form span button {
+  font-size: 20px;
+  border: none;
+  background-color: #652196;
+  color: white;
+  width: 50%;
+  height: 100%;
+  transition: 0.4s;
+}
+.autorization form span button:hover {
+  background-color: #7F29BB;
+}
+.autorization form input {
+  border: 1px solid black;
+  min-height: 20%;
+  transition: 0.4s;
+  background-color: #F2F2F2;
+  border: none;
+  font-size: 20px;
+}
+.autorization form input::-moz-placeholder {
+  color: #272727;
+}
+.autorization form input::placeholder {
+  color: #272727;
+}
+.autorization form input:hover {
+  background-color: #bbbbbb;
+}
+.autorization form input:focus {
+  outline: none;
+  border: none;
+}/*# sourceMappingURL=login-register.css.map */
